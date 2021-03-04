@@ -1,0 +1,23 @@
+1614867950400	geckodriver	INFO	Listening on 127.0.0.1:54967
+1614867953479	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\MARK~1.FOM\\AppData\\Local\\Temp\\rust_mozprofile0PCUrY"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1614867956236	Marionette	INFO	Listening on port 54976
+1614867956693	Marionette	WARN	TLS certificate errors will be ignored for this session
+1614867956736	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: http://192.168.7.148/doc/script/lib/angularjs/angularjs/angular-1.2.0.min.js?version=V4.0.52build200619, line 186: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1614867962125	Marionette	INFO	Stopped listening on port 54976
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1614868021295	geckodriver	INFO	Listening on 127.0.0.1:55070
+1614868196943	geckodriver	INFO	Listening on 127.0.0.1:55181
+1614868199967	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\MARK~1.FOM\\AppData\\Local\\Temp\\rust_mozprofileKV3sUM"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1614868202265	Marionette	INFO	Listening on port 55191
+1614868202635	Marionette	WARN	TLS certificate errors will be ignored for this session
+1614868202672	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: http://192.168.7.148/doc/script/lib/angularjs/angularjs/angular-1.2.0.min.js?version=V4.0.52build200619, line 186: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1614868280417	Marionette	INFO	Stopped listening on port 55191
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
