@@ -21,9 +21,9 @@ def get_timestamp():
 
 
 options = Options()
-capa = DesiredCapabilities.CHROME
-capa["pageLoadStrategy"] = "normal"
-driver = webdriver.Chrome()
+capa = webdriver.IeOptions.capabilities
+# capa["pageLoadStrategy"] = "normal"
+driver = webdriver.Ie()
 driver.implicitly_wait(10)
 wait = WebDriverWait(driver, 10)
 
