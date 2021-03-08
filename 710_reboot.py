@@ -43,5 +43,6 @@ driver.find_element(*Elements.settings_button).click()
 time.sleep(2)
 driver.find_element(*Elements.maintenance_menu).click()
 time.sleep(2)
-
+driver.find_element(*Elements.browse_fw_button).send_keys(os.getcwd() + Elements.ipc_fw)
+time.sleep(2)
 driver.quit()
