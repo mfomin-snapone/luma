@@ -1,0 +1,171 @@
+09-Mar-2021 (13:22:28.469120) Starting script!
+09-Mar-2021 (13:22:30.505028) Entering username
+09-Mar-2021 (13:22:30.542637) Entering password
+09-Mar-2021 (13:22:31.643932) Logging in
+09-Mar-2021 (13:22:36.720594) Selecting Settings
+09-Mar-2021 (13:22:38.768422) Selecting Maintenance menu
+09-Mar-2021 (13:22:40.803848) Selecting Reboot button
+09-Mar-2021 (13:22:42.853020) Device Rebooting! Please wait...
+09-Mar-2021 (13:23:43.512042) PoE RESET!!!
+09-Mar-2021 (13:23:44.523700) Waiting for device boot...
+09-Mar-2021 (13:24:34.538282) Re-launching web browser!
+09-Mar-2021 (13:24:39.194217) Sending DUT address to browser
+09-Mar-2021 (13:24:41.245895) Entering username
+09-Mar-2021 (13:24:41.280269) Entering password
+09-Mar-2021 (13:24:42.343957) Login button selected
+09-Mar-2021 (13:24:57.775932) Post-Loop Screenshot taken: 1
+09-Mar-2021 (13:25:04.445331) Loop Finished!
+09-Mar-2021 (13:25:04.445331) Starting script!
+09-Mar-2021 (13:25:06.475813) Entering username
+09-Mar-2021 (13:25:06.511814) Entering password
+09-Mar-2021 (13:25:07.576331) Logging in
+09-Mar-2021 (13:25:12.657219) Selecting Settings
+09-Mar-2021 (13:25:14.701247) Selecting Maintenance menu
+09-Mar-2021 (13:25:16.741592) Selecting Reboot button
+09-Mar-2021 (13:25:18.788786) Device Rebooting! Please wait...
+09-Mar-2021 (13:26:19.369694) PoE RESET!!!
+09-Mar-2021 (13:26:20.379217) Waiting for device boot...
+09-Mar-2021 (13:27:10.389221) Re-launching web browser!
+09-Mar-2021 (13:27:15.033515) Sending DUT address to browser
+09-Mar-2021 (13:27:17.080548) Entering username
+09-Mar-2021 (13:27:17.116030) Entering password
+09-Mar-2021 (13:27:18.178233) Login button selected
+09-Mar-2021 (13:27:33.628545) Post-Loop Screenshot taken: 2
+09-Mar-2021 (13:27:40.269190) Loop Finished!
+09-Mar-2021 (13:27:40.269190) Starting script!
+09-Mar-2021 (13:27:42.301939) Entering username
+09-Mar-2021 (13:27:42.337055) Entering password
+09-Mar-2021 (13:27:43.409691) Logging in
+09-Mar-2021 (13:27:48.457002) Selecting Settings
+09-Mar-2021 (13:27:50.505714) Selecting Maintenance menu
+09-Mar-2021 (13:27:52.539390) Selecting Reboot button
+09-Mar-2021 (13:27:54.590490) Device Rebooting! Please wait...
+09-Mar-2021 (13:28:55.221609) PoE RESET!!!
+09-Mar-2021 (13:28:56.229684) Waiting for device boot...
+09-Mar-2021 (13:29:46.230032) Re-launching web browser!
+09-Mar-2021 (13:29:51.026001) Sending DUT address to browser
+09-Mar-2021 (13:29:53.065673) Entering username
+09-Mar-2021 (13:29:53.103993) Entering password
+09-Mar-2021 (13:29:54.173676) Login button selected
+09-Mar-2021 (13:30:09.558784) Post-Loop Screenshot taken: 3
+09-Mar-2021 (13:30:16.186122) Loop Finished!
+09-Mar-2021 (13:30:16.186122) Starting script!
+09-Mar-2021 (13:30:18.217083) Entering username
+09-Mar-2021 (13:30:18.258083) Entering password
+09-Mar-2021 (13:30:19.328148) Logging in
+09-Mar-2021 (13:30:24.384343) Selecting Settings
+09-Mar-2021 (13:30:26.423830) Selecting Maintenance menu
+09-Mar-2021 (13:30:28.458727) Selecting Reboot button
+09-Mar-2021 (13:30:30.503995) Device Rebooting! Please wait...
+09-Mar-2021 (13:31:31.042064) PoE RESET!!!
+09-Mar-2021 (13:31:32.050495) Waiting for device boot...
+09-Mar-2021 (13:32:22.054410) Re-launching web browser!
+09-Mar-2021 (13:32:26.674419) Sending DUT address to browser
+09-Mar-2021 (13:32:28.712174) Entering username
+09-Mar-2021 (13:32:28.748281) Entering password
+09-Mar-2021 (13:32:29.818382) Login button selected
+09-Mar-2021 (13:32:45.257338) Post-Loop Screenshot taken: 4
+09-Mar-2021 (13:32:51.924416) Loop Finished!
+09-Mar-2021 (13:32:51.924416) Starting script!
+09-Mar-2021 (13:32:53.961180) Entering username
+09-Mar-2021 (13:32:53.996784) Entering password
+09-Mar-2021 (13:32:55.073907) Logging in
+09-Mar-2021 (13:33:00.131121) Selecting Settings
+09-Mar-2021 (13:33:02.176678) Selecting Maintenance menu
+09-Mar-2021 (13:33:04.219997) Selecting Reboot button
+09-Mar-2021 (13:33:06.270128) Device Rebooting! Please wait...
+09-Mar-2021 (13:34:06.962221) PoE RESET!!!
+09-Mar-2021 (13:34:07.975686) Waiting for device boot...
+09-Mar-2021 (13:34:57.978597) Re-launching web browser!
+09-Mar-2021 (13:35:02.603434) Sending DUT address to browser
+09-Mar-2021 (13:35:04.650734) Entering username
+09-Mar-2021 (13:35:04.686861) Entering password
+09-Mar-2021 (13:35:05.746260) Login button selected
+09-Mar-2021 (13:35:21.158999) Post-Loop Screenshot taken: 5
+09-Mar-2021 (13:35:27.791380) Loop Finished!
+09-Mar-2021 (13:35:27.791380) Starting script!
+09-Mar-2021 (13:35:29.836735) Entering username
+09-Mar-2021 (13:35:29.872996) Entering password
+09-Mar-2021 (13:35:30.941228) Logging in
+09-Mar-2021 (13:35:35.991053) Selecting Settings
+09-Mar-2021 (13:35:38.035426) Selecting Maintenance menu
+09-Mar-2021 (13:35:40.089882) Selecting Reboot button
+09-Mar-2021 (13:35:42.151081) Device Rebooting! Please wait...
+09-Mar-2021 (13:36:42.722906) PoE RESET!!!
+09-Mar-2021 (13:36:43.737187) Waiting for device boot...
+09-Mar-2021 (13:37:33.738224) Re-launching web browser!
+09-Mar-2021 (13:37:38.538000) Sending DUT address to browser
+09-Mar-2021 (13:37:40.573962) Entering username
+09-Mar-2021 (13:37:40.611467) Entering password
+09-Mar-2021 (13:37:41.683299) Login button selected
+09-Mar-2021 (13:37:57.107502) Post-Loop Screenshot taken: 6
+09-Mar-2021 (13:38:03.773486) Loop Finished!
+09-Mar-2021 (13:38:03.773486) Starting script!
+09-Mar-2021 (13:38:05.804191) Entering username
+09-Mar-2021 (13:38:05.843321) Entering password
+09-Mar-2021 (13:38:06.912991) Logging in
+09-Mar-2021 (13:38:11.959562) Selecting Settings
+09-Mar-2021 (13:38:14.000780) Selecting Maintenance menu
+09-Mar-2021 (13:38:16.037315) Selecting Reboot button
+09-Mar-2021 (13:38:18.094394) Device Rebooting! Please wait...
+09-Mar-2021 (13:39:18.769366) PoE RESET!!!
+09-Mar-2021 (13:39:19.780311) Waiting for device boot...
+09-Mar-2021 (13:40:09.783380) Re-launching web browser!
+09-Mar-2021 (13:40:14.403248) Sending DUT address to browser
+09-Mar-2021 (13:40:16.441413) Entering username
+09-Mar-2021 (13:40:16.477713) Entering password
+09-Mar-2021 (13:40:17.544861) Login button selected
+09-Mar-2021 (13:40:33.001879) Post-Loop Screenshot taken: 7
+09-Mar-2021 (13:40:39.650566) Loop Finished!
+09-Mar-2021 (13:40:39.650566) Starting script!
+09-Mar-2021 (13:40:41.688227) Entering username
+09-Mar-2021 (13:40:41.725356) Entering password
+09-Mar-2021 (13:40:42.796987) Logging in
+09-Mar-2021 (13:40:47.863269) Selecting Settings
+09-Mar-2021 (13:40:49.904573) Selecting Maintenance menu
+09-Mar-2021 (13:40:51.947169) Selecting Reboot button
+09-Mar-2021 (13:40:53.989611) Device Rebooting! Please wait...
+09-Mar-2021 (13:41:54.679833) PoE RESET!!!
+09-Mar-2021 (13:41:55.689320) Waiting for device boot...
+09-Mar-2021 (13:42:45.698292) Re-launching web browser!
+09-Mar-2021 (13:42:50.329411) Sending DUT address to browser
+09-Mar-2021 (13:42:52.365031) Entering username
+09-Mar-2021 (13:42:52.402853) Entering password
+09-Mar-2021 (13:42:53.524083) Login button selected
+09-Mar-2021 (13:43:08.899383) Post-Loop Screenshot taken: 8
+09-Mar-2021 (13:43:15.551139) Loop Finished!
+09-Mar-2021 (13:43:15.551139) Starting script!
+09-Mar-2021 (13:43:17.595754) Entering username
+09-Mar-2021 (13:43:17.635383) Entering password
+09-Mar-2021 (13:43:18.701552) Logging in
+09-Mar-2021 (13:43:23.744544) Selecting Settings
+09-Mar-2021 (13:43:25.784442) Selecting Maintenance menu
+09-Mar-2021 (13:43:27.818736) Selecting Reboot button
+09-Mar-2021 (13:43:29.866510) Device Rebooting! Please wait...
+09-Mar-2021 (13:44:30.460727) PoE RESET!!!
+09-Mar-2021 (13:44:31.467044) Waiting for device boot...
+09-Mar-2021 (13:45:21.474530) Re-launching web browser!
+09-Mar-2021 (13:45:26.116397) Sending DUT address to browser
+09-Mar-2021 (13:45:28.149588) Entering username
+09-Mar-2021 (13:45:28.184585) Entering password
+09-Mar-2021 (13:45:29.255019) Login button selected
+09-Mar-2021 (13:45:44.707401) Post-Loop Screenshot taken: 9
+09-Mar-2021 (13:45:51.335849) Loop Finished!
+09-Mar-2021 (13:45:51.335849) Starting script!
+09-Mar-2021 (13:45:53.359885) Entering username
+09-Mar-2021 (13:45:53.402131) Entering password
+09-Mar-2021 (13:45:54.466585) Logging in
+09-Mar-2021 (13:45:59.518814) Selecting Settings
+09-Mar-2021 (13:46:01.568911) Selecting Maintenance menu
+09-Mar-2021 (13:46:03.616404) Selecting Reboot button
+09-Mar-2021 (13:46:05.665596) Device Rebooting! Please wait...
+09-Mar-2021 (13:47:06.262614) PoE RESET!!!
+09-Mar-2021 (13:47:07.266865) Waiting for device boot...
+09-Mar-2021 (13:47:57.276127) Re-launching web browser!
+09-Mar-2021 (13:48:01.923658) Sending DUT address to browser
+09-Mar-2021 (13:48:03.964048) Entering username
+09-Mar-2021 (13:48:04.001279) Entering password
+09-Mar-2021 (13:48:05.073869) Login button selected
+09-Mar-2021 (13:48:20.512876) Post-Loop Screenshot taken: 10
+09-Mar-2021 (13:48:27.154311) Loop Finished!
+09-Mar-2021 (13:48:27.154311) Script Finished!

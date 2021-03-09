@@ -10,9 +10,9 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
 import datetime
 
-# output_file_name = input("Enter log file name: ")
-# output_file_path = "/Users/mark.fomin/Documents/Wattbox/{}.txt".format(output_file_name)
-# outputFile = open(output_file_path, "a+")
+output_file_name = "logs"
+output_file_path = os.getcwd() + "\\logs\\{}.txt".format(output_file_name)
+outputFile = open(output_file_path, "a+")
 
 
 def get_timestamp():
@@ -21,13 +21,12 @@ def get_timestamp():
     return print_timestamp
 
 
-sleep_counter = 0
+ip_address = input("Enter the device IP address: ")
+url = "http://{}/".format(ip_address)
 loop_counter = input("Enter number of loops: ")
 start_script_choice = input("Start script? y/n: ")
-entered_loops = input("Enter number of loops: ")
+script_loop_count = 0
 screenshot_counter = 0
-screenshot_counter = screenshot_counter + 1
-
 
 options = Options()
 capabilities = DesiredCapabilities.CHROME
@@ -37,44 +36,85 @@ driver.implicitly_wait(10)
 
 if start_script_choice == 'Y' or start_script_choice == 'y':
     for x in range(0, int(loop_counter)):
-
-        driver.get(Elements.url)
+        script_loop_count = script_loop_count + 1
+        print(get_timestamp(), "Starting script! Loop Interval: " + str(script_loop_count))
+        print(get_timestamp(), "Starting script!", file=outputFile)
+        screenshot_counter = screenshot_counter + 1
+        driver.get(url)
         time.sleep(2)
 
         # Entering username
         driver.find_element(*Elements.login_username).send_keys("admin")
-
+        print(get_timestamp(), "Entering username")
+        print(get_timestamp(), "Entering username", file=outputFile)
         # Entering password
         driver.find_element(*Elements.login_password).send_keys("Snapav704")
+        print(get_timestamp(), "Entering password")
+        print(get_timestamp(), "Entering password", file=outputFile)
         time.sleep(1)
         # Selecting login button
         driver.find_element(*Elements.login_button).click()
+        print(get_timestamp(), "Logging in")
+        print(get_timestamp(), "Logging in", file=outputFile)
         time.sleep(5)
         driver.find_element(*Elements.settings_button).click()
+        print(get_timestamp(), "Selecting Settings")
+        print(get_timestamp(), "Selecting Settings", file=outputFile)
         time.sleep(2)
         driver.find_element(*Elements.maintenance_menu).click()
+        print(get_timestamp(), "Selecting Maintenance menu")
+        print(get_timestamp(), "Selecting Maintenance menu", file=outputFile)
         time.sleep(2)
         driver.find_element(*Elements.reboot_button).click()
+        print(get_timestamp(), "Selecting Reboot button")
+        print(get_timestamp(), "Selecting Reboot button", file=outputFile)
         time.sleep(2)
-        driver.find_element(*Elements.reboot_popup_ok_option).click()
-        time.sleep(55)
+        driver.find_element(*Elements.reboot_popup_ok_option).send_keys(Keys.ENTER)
+        print(get_timestamp(), "Device Rebooting! Please wait...")
+        print(get_timestamp(), "Device Rebooting! Please wait...", file=outputFile)
+        time.sleep(50)
         resets.poe_port_reset()
-
-        time.sleep(60)
+        print(get_timestamp(), "PoE RESET!!!")
+        print(get_timestamp(), "PoE RESET!!!", file=outputFile)
+        time.sleep(1)
+        print(get_timestamp(), "Waiting for device boot...")
+        print(get_timestamp(), "Waiting for device boot...", file=outputFile)
+        time.sleep(50)
+        print(get_timestamp(), "Re-launching web browser!")
+        print(get_timestamp(), "Re-launching web browser!", file=outputFile)
+        driver.close()
         driver.start_session(capabilities=capabilities)
-        driver.get(Elements.url)
+        driver.get(url)
+        print(get_timestamp(), "Sending DUT address to browser")
+        print(get_timestamp(), "Sending DUT address to browser", file=outputFile)
         time.sleep(2)
 
         # Entering username
         driver.find_element(*Elements.login_username).send_keys("admin")
-
+        print(get_timestamp(), "Entering username")
+        print(get_timestamp(), "Entering username", file=outputFile)
         # Entering password
         driver.find_element(*Elements.login_password).send_keys("Snapav704")
+        print(get_timestamp(), "Entering password")
+        print(get_timestamp(), "Entering password", file=outputFile)
         time.sleep(1)
         # Selecting login button
         driver.find_element(*Elements.login_button).click()
-        time.sleep(5)
+        print(get_timestamp(), "Login button selected")
+        print(get_timestamp(), "Login button selected", file=outputFile)
+        time.sleep(15)
+        screenshot_file = "Loop " + str(screenshot_counter) + ".png"
+        driver.get_screenshot_as_file('Screenshots\\' + screenshot_file)
+        print(get_timestamp(), "Post-Loop Screenshot taken: " + str(screenshot_counter))
+        print(get_timestamp(), "Post-Loop Screenshot taken: " + str(screenshot_counter), file=outputFile)
+        time.sleep(2)
+        driver.close()
+        driver.start_session(capabilities=capabilities)
+        print(get_timestamp(), "Loop Finished!")
+        print(get_timestamp(), "Loop Finished!", file=outputFile)
 
-        driver.get_screenshot_as_file("Loop " + str(screenshot_counter))
+
+print(get_timestamp(), "Script Finished!")
+print(get_timestamp(), "Script Finished!", file=outputFile)
 
 driver.quit()
