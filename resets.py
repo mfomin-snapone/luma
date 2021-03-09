@@ -1,7 +1,7 @@
 import telnetlib
 import time
 
-host = "192.168.0.119"
+host = "192.168.0.102"
 user = "araknis"
 password = "SnapAV704"
 
@@ -27,7 +27,7 @@ def network_port_reset():
     time.sleep(1)
     tn.write(b"configure\n")
     time.sleep(1)
-    tn.write(b"interface GigabitEthernet 12\n")
+    tn.write(b"interface GigabitEthernet 3\n")
     time.sleep(1)
     tn.write(b"shutdown\n")
     time.sleep(10)
@@ -48,7 +48,7 @@ def network_port_on():
     time.sleep(1)
     tn.write(b"configure\n")
     time.sleep(1)
-    tn.write(b"interface GigabitEthernet 12\n")
+    tn.write(b"interface GigabitEthernet 3\n")
     time.sleep(1)
     tn.write(b"no shutdown\n")
     time.sleep(1)
@@ -67,10 +67,32 @@ def network_port_off():
     time.sleep(1)
     tn.write(b"configure\n")
     time.sleep(1)
-    tn.write(b"interface GigabitEthernet 12\n")
+    tn.write(b"interface GigabitEthernet 3\n")
     time.sleep(1)
     tn.write(b"shutdown\n")
     time.sleep(1)
     tn.write(b"end\n")
     time.sleep(1)
     tn.write(b"exit\n")
+
+
+def poe_port_reset():
+    tn = telnetlib.Telnet(host)
+    tn.read_until(b"Username: ")
+    tn.write(b"araknis\n")
+    if password:
+        tn.read_until(b"Password: ")
+    tn.write(b"SnapAV704\n")
+    time.sleep(1)
+    tn.write(b"configure\n")
+    time.sleep(1)
+    tn.write(b"interface GigabitEthernet 3\n")
+    time.sleep(1)
+    tn.write(b"poe state disabled\n")
+    time.sleep(5)
+    tn.write(b"poe state enabled\n")
+    time.sleep(1)
+    tn.write(b"end\n")
+    time.sleep(1)
+    tn.write(b"exit\n")
+
