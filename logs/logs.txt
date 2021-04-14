@@ -169,3 +169,141 @@
 09-Mar-2021 (13:48:20.512876) Post-Loop Screenshot taken: 10
 09-Mar-2021 (13:48:27.154311) Loop Finished!
 09-Mar-2021 (13:48:27.154311) Script Finished!
+10-Mar-2021 (16:37:51.830908) Starting script!
+10-Mar-2021 (16:37:53.975110) Entering username
+10-Mar-2021 (16:37:54.031725) Entering password
+10-Mar-2021 (16:37:55.113510) Logging in
+10-Mar-2021 (16:38:00.265831) Selecting Settings
+10-Mar-2021 (16:38:02.395766) Selecting Maintenance menu
+10-Mar-2021 (16:38:04.524033) Selecting Reboot button
+10-Mar-2021 (16:38:06.702470) Device Rebooting! Please wait...
+14-Apr-2021 (11:27:03.096635) Starting script!
+14-Apr-2021 (11:27:06.554589) Entering username
+14-Apr-2021 (11:27:06.620000) Entering password
+14-Apr-2021 (11:27:07.705849) Logging in
+14-Apr-2021 (11:27:13.984752) Selecting Settings
+14-Apr-2021 (11:27:16.022714) Selecting Maintenance menu
+14-Apr-2021 (11:27:18.086975) Selecting Reboot button
+14-Apr-2021 (11:27:20.142951) Device Rebooting! Please wait...
+14-Apr-2021 (11:28:20.144418) Re-launching web browser!
+14-Apr-2021 (11:28:23.543179) Sending DUT address to browser
+14-Apr-2021 (11:28:25.589760) Entering username
+14-Apr-2021 (11:28:25.630761) Entering password
+14-Apr-2021 (11:28:26.711062) Login button selected
+14-Apr-2021 (11:28:42.345725) Post-Loop Screenshot taken: 1
+14-Apr-2021 (11:28:45.037825) Loop Finished!
+14-Apr-2021 (11:28:45.038834) Starting script!
+14-Apr-2021 (11:28:48.809571) Entering username
+14-Apr-2021 (11:28:48.850166) Entering password
+14-Apr-2021 (11:28:49.916926) Logging in
+14-Apr-2021 (11:28:56.286141) Selecting Settings
+14-Apr-2021 (11:28:58.332184) Selecting Maintenance menu
+14-Apr-2021 (11:29:00.377858) Selecting Reboot button
+14-Apr-2021 (11:29:02.441401) Device Rebooting! Please wait...
+14-Apr-2021 (11:30:02.445500) Re-launching web browser!
+14-Apr-2021 (11:30:08.546846) Sending DUT address to browser
+14-Apr-2021 (11:30:10.582969) Entering username
+14-Apr-2021 (11:30:10.622646) Entering password
+14-Apr-2021 (11:30:11.691653) Login button selected
+14-Apr-2021 (11:30:27.243644) Post-Loop Screenshot taken: 2
+14-Apr-2021 (11:30:33.991880) Loop Finished!
+14-Apr-2021 (11:30:33.991880) Starting script!
+14-Apr-2021 (11:30:37.274916) Entering username
+14-Apr-2021 (11:30:37.316056) Entering password
+14-Apr-2021 (11:30:38.395368) Logging in
+14-Apr-2021 (11:30:44.331913) Selecting Settings
+14-Apr-2021 (11:30:46.384192) Selecting Maintenance menu
+14-Apr-2021 (11:30:48.427223) Selecting Reboot button
+14-Apr-2021 (11:30:50.479326) Device Rebooting! Please wait...
+14-Apr-2021 (11:31:50.494813) Re-launching web browser!
+14-Apr-2021 (11:31:57.037573) Sending DUT address to browser
+14-Apr-2021 (11:31:59.085009) Entering username
+14-Apr-2021 (11:31:59.131010) Entering password
+14-Apr-2021 (11:32:00.200137) Login button selected
+14-Apr-2021 (11:32:15.751080) Post-Loop Screenshot taken: 3
+14-Apr-2021 (11:32:22.427131) Loop Finished!
+14-Apr-2021 (11:32:22.428114) Starting script!
+14-Apr-2021 (11:32:26.338504) Entering username
+14-Apr-2021 (11:32:26.382228) Entering password
+14-Apr-2021 (11:32:27.441908) Logging in
+14-Apr-2021 (11:32:33.492747) Selecting Settings
+14-Apr-2021 (11:32:35.543729) Selecting Maintenance menu
+14-Apr-2021 (11:32:37.585620) Selecting Reboot button
+14-Apr-2021 (11:32:39.645651) Device Rebooting! Please wait...
+14-Apr-2021 (11:33:39.652474) Re-launching web browser!
+14-Apr-2021 (11:33:45.857214) Sending DUT address to browser
+14-Apr-2021 (11:33:47.891384) Entering username
+14-Apr-2021 (11:33:47.933391) Entering password
+14-Apr-2021 (11:33:49.002162) Login button selected
+14-Apr-2021 (11:34:04.601048) Post-Loop Screenshot taken: 4
+14-Apr-2021 (11:34:11.268982) Loop Finished!
+14-Apr-2021 (11:34:11.268982) Starting script!
+14-Apr-2021 (11:34:14.764790) Entering username
+14-Apr-2021 (11:34:14.807790) Entering password
+14-Apr-2021 (11:34:15.879425) Logging in
+14-Apr-2021 (11:34:22.189210) Selecting Settings
+14-Apr-2021 (11:34:24.225137) Selecting Maintenance menu
+14-Apr-2021 (11:34:26.272203) Selecting Reboot button
+14-Apr-2021 (11:34:28.342287) Device Rebooting! Please wait...
+14-Apr-2021 (11:35:28.343340) Re-launching web browser!
+14-Apr-2021 (11:35:34.403826) Sending DUT address to browser
+14-Apr-2021 (11:35:36.446320) Entering username
+14-Apr-2021 (11:35:36.490211) Entering password
+14-Apr-2021 (11:35:37.560573) Login button selected
+14-Apr-2021 (11:35:53.131015) Post-Loop Screenshot taken: 5
+14-Apr-2021 (11:35:59.847204) Loop Finished!
+14-Apr-2021 (11:35:59.847204) Starting script!
+14-Apr-2021 (11:36:04.332219) Entering username
+14-Apr-2021 (11:36:04.371474) Entering password
+14-Apr-2021 (11:36:05.578962) Logging in
+14-Apr-2021 (11:36:11.610762) Selecting Settings
+14-Apr-2021 (11:36:13.655774) Selecting Maintenance menu
+14-Apr-2021 (11:36:15.698693) Selecting Reboot button
+14-Apr-2021 (11:36:17.753142) Device Rebooting! Please wait...
+14-Apr-2021 (11:37:17.763375) Re-launching web browser!
+14-Apr-2021 (11:37:23.798536) Sending DUT address to browser
+14-Apr-2021 (11:37:25.836942) Entering username
+14-Apr-2021 (11:37:25.887945) Entering password
+14-Apr-2021 (11:37:26.966311) Login button selected
+14-Apr-2021 (11:37:42.558858) Post-Loop Screenshot taken: 6
+14-Apr-2021 (11:37:49.245390) Loop Finished!
+14-Apr-2021 (11:37:49.245390) Starting script!
+14-Apr-2021 (11:37:52.693890) Entering username
+14-Apr-2021 (11:37:52.740124) Entering password
+14-Apr-2021 (11:37:53.824455) Logging in
+14-Apr-2021 (11:37:59.921995) Selecting Settings
+14-Apr-2021 (11:38:01.961702) Selecting Maintenance menu
+14-Apr-2021 (11:38:03.996245) Selecting Reboot button
+14-Apr-2021 (11:38:06.050572) Device Rebooting! Please wait...
+14-Apr-2021 (11:39:06.065556) Re-launching web browser!
+14-Apr-2021 (11:39:13.207531) Sending DUT address to browser
+14-Apr-2021 (11:39:15.268770) Entering username
+14-Apr-2021 (11:39:15.309802) Entering password
+14-Apr-2021 (11:39:16.380671) Login button selected
+14-Apr-2021 (11:39:31.928778) Post-Loop Screenshot taken: 7
+14-Apr-2021 (11:39:38.594823) Loop Finished!
+14-Apr-2021 (11:39:38.594823) Starting script!
+14-Apr-2021 (11:39:42.076365) Entering username
+14-Apr-2021 (11:39:42.115825) Entering password
+14-Apr-2021 (11:39:43.198020) Logging in
+14-Apr-2021 (11:39:49.554688) Selecting Settings
+14-Apr-2021 (11:39:51.592576) Selecting Maintenance menu
+14-Apr-2021 (11:39:53.628966) Selecting Reboot button
+14-Apr-2021 (11:39:55.693047) Device Rebooting! Please wait...
+14-Apr-2021 (11:40:55.694645) Re-launching web browser!
+14-Apr-2021 (11:41:01.809238) Sending DUT address to browser
+14-Apr-2021 (11:41:03.848344) Entering username
+14-Apr-2021 (11:41:03.889327) Entering password
+14-Apr-2021 (11:41:04.967479) Login button selected
+14-Apr-2021 (11:41:20.534362) Post-Loop Screenshot taken: 8
+14-Apr-2021 (11:41:27.285145) Loop Finished!
+14-Apr-2021 (11:41:27.285145) Starting script!
+14-Apr-2021 (11:41:30.562781) Entering username
+14-Apr-2021 (11:41:30.606915) Entering password
+14-Apr-2021 (11:41:31.675737) Logging in
+14-Apr-2021 (11:41:37.895162) Selecting Settings
+14-Apr-2021 (11:41:39.942514) Selecting Maintenance menu
+14-Apr-2021 (11:41:41.977013) Selecting Reboot button
+14-Apr-2021 (11:41:44.029281) Device Rebooting! Please wait...
+14-Apr-2021 (11:42:44.035794) Re-launching web browser!
+14-Apr-2021 (11:42:54.024834) Sending DUT address to browser
