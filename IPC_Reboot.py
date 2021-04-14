@@ -20,7 +20,7 @@ def get_timestamp():
     return print_timestamp
 
 
-ip_address = '192.168.7.187'
+ip_address = '192.168.22.116'
 url = "http://{}/".format(ip_address)
 loop_counter = 20
 start_script_choice = 'y'
