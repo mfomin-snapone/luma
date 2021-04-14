@@ -20,9 +20,9 @@ def get_timestamp():
     return print_timestamp
 
 
-ip_address = input("Enter the device IP address: ")
+ip_address = '192.168.7.187'
 url = "http://{}/".format(ip_address)
-loop_counter = input("Enter number of loops: ")
+loop_counter = 20
 start_script_choice = 'y'
 script_loop_count = 0
 screenshot_counter = 0
